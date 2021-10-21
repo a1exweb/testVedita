@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключаем CSS слайдера -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="popup.css">
+    <title>AUHANDY</title>
+</head>
+
+<body>
+    <!-- SOCIAL -->
+    <section class="social">
+        <div class="container">
+            <div class="social__body">
+                <h2 class="social__title">
+                    We make your home more quality.
+                </h2>
+                <ul class="social__list">
+                    <li>
+                        <a class="social__link" target="_blank" href="https://ru-ru.facebook.com/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social__link" target="_blank" href="https://twitter.com/?lang=ru">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social__link" target="_blank" href="https://www.google.ru/">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social__link" target="_blank" href="https://www.behance.net/">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-body">
+                <div class="header__welcome">
+                    <div class="header__logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="header__text">
+                        <h1 class="header__title">Auhandy</h1>
+                        <div class="header__subtitle">We repair everything.</div>
+                    </div>
+                </div>
+                <div class="header__navigation">
+                    <div class="menu-btn">
+                        <div class="menu-btn__burger"></div>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="nav">
+                            <li>
+                                <a href="index.html" class="nav__link">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#services" class="nav__link">
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#projects" class="nav__link">
+                                    Projects
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pages.html" class="nav__link">
+                                    Pages
+                                </a>
+                            </li>
+                            <li>
+                                <a href="block.html" class="nav__link">
+                                    Block
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="nav__link">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__search">
+                        <input type="search" class="header__search-input">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- SHOWCASE -->
+    <section class="showcase" style="background: url(./images/showcase_bg.png) center/cover no-repeat;">
+        <div class="container">
+            <div class="showcase__body">
+                <div class="showcase__img">
+                    <img src="./images/rabbit.png" alt="">
+                </div>
+                <div class="showcase__content">
+                    <div class="showcase__text">
+                        <h2 class="showcase__title">
+                            Expert Handyman & Remodeling
+                        </h2>
+                        <div class="showcase__subtitle">
+                            Integer consectetur dapibus nisi, et faucibus augue lobortis ut. Proin quis porttitor sem.
+                            Donec ultrices felis quis tincidunt
+                        </div>
+                    </div>
+                    <div class="showcase__buttons">
+                        <div class="showcase__btn open_popup btn btn_outline">
+                            Learn More
+                        </div>
+                        <div class="showcase__btn btn btn_outline">
+                            Get A Quote
+                        </div>
+                    </div>
+                </div>
+                <div class="popup">
+                    <div class="popup__container">
+                        <div class="popup__content">
+                            <h2>Welcome to Us</h2>
+                            <form class="popup__form" name="popup-contact" method="POST" 
+                                data-netlify="true">
+                                <input type="hidden" name="form-name" value="popup-contact">
+                                <p class="hidden">
+                                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                                </p>
+                                <input type="text" name="name" placeholder="Name" data-validate-field="name">
+                                <input type="email" name="email" placeholder="Email" data-validate-field="email">
+                                <input type="tel" name="phone" placeholder="Phone" data-validate-field="phone">
+                                <button class="btn btn_fill">Submit</button>
+                            </form>
+                            <div class="popup__close">
+                                <i class="far fa-times-circle fa-4x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- INFO-TEL -->
+    <section class="info-tel" style="background: url(./images/info-tel_gd.png) center/cover no-repeat;">
+        <div class="container">
+            <div class="info-tel__body">
+                <h2 class="info-tel__text">We have 13 years of experience in Auhandy.</h2>
+                <a href="tel:+1235678596" class="info-tel__btn btn btn_fill">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="btn__link">+1 23 567 8596</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- WHY CHOOSE US -->
+    <section class="why">
+        <div class="container">
+            <div class="why__body">
+                <div class="why__img">
+                    <img src="./images/rabbit_fill.png" alt="">
+                </div>
+                <div class="why__content">
+                    <div class="why__heading-block heading-block">
+                        <h2 class="heading-block__title heading-block__title_starting-blue">
+                            Why Choose Us
+                        </h2>
+                        <div class="why-heading-block__subtitle heading-block__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec ligula temp cursus
+                            justo eu, blandit quam. Sed viverra, quam ut maximus porta, lorem bibendum metus, et
+                            eleifend mi nunc ac arcu facilisis lorem urna eu quam.
+                        </div>
+                    </div>
+                    <div class="why__offers grid grid-2">
+                        <div class="why-offer offer">
+                            <div class="offer__img">
+                                <img src="./images/gears2.png" alt="offer_1">
+                            </div>
+                            <div class="offer__text">
+                                <div class="offer__title">Easy To Customize.</div>
+                                <div class="offer__subtitle">Mauris efficitur mi eu nisi venenatis vestibulum sit
+                                    tellus. </div>
+                            </div>
+                        </div>
+                        <div class="why-offer offer">
+                            <div class="offer__img">
+                                <img src="./images/comment.png" alt="offer_1">
+                            </div>
+                            <div class="offer__text">
+                                <div class="offer__title">24/7 Support Service</div>
+                                <div class="offer__subtitle">Aliquam vel felis quis ipsum fermentum sollicitudin eget.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="why-offer offer">
+                            <div class="offer__img">
+                                <img src="./images/gift.png" alt="offer_1">
+                            </div>
+                            <div class="offer__text">
+                                <div class="offer__title">Gift For Loyal Customers</div>
+                                <div class="offer__subtitle">Ut imperdiet libero sed tel pretium convallis quis lectus.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="why-offer offer">
+                            <div class="offer__img">
+                                <img src="./images/lovers-heart.png" alt="offer_1">
+                            </div>
+                            <div class="offer__text">
+                                <div class="offer__title">Favorite Customers</div>
+                                <div class="offer__subtitle">Lorem ipsum dolor sit a consectetur adipiscing. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- OUR SERVICES -->
+    <section id="services" class="services" style="background: url(./images/services_bg.png) center/cover no-repeat;">
+        <div class="container">
+            <div class="services__heading-block heading-block">
+                <h2 class="heading-block__title heading-block__title_center-white">
+                    Our Services
+                </h2>
+            </div>
+            <div class="services__body">
+                <button class="services__arrow services__prev">
+                    <img src="./images/left_arrow.png" alt="">
+                </button>
+                <div class="services__wrapper">
+                    <div class="services__content">
+                        
+                   <div class="services__items">
+                   
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/gears.png" alt="gears">
+                        </div>
+                        <div class="services-item__title item__title">Engine Repairs</div>
+                        <div class="services-item__text item__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.</div>
+                    </div>
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/light-bolt.png" alt="">
+                        </div>
+                        <div class="services-item__title item__title">Electrical</div>
+                        <div class="services-item__text item__text">Donec malesuada, purus a viverra sodales leo purus
+                            lobortis</div>
+                    </div>
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/pipe.png" alt="">
+                        </div>
+                        <div class="services-item__title item__title">Plumbing</div>
+                        <div class="services-item__text item__text">Praesent dignissim mattis mauris. Sed finibus
+                            elementu.</div>
+                    </div>
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/wrench.png" alt="">
+                        </div>
+                        <div class="services-item__title item__title">Repair House</div>
+                        <div class="services-item__text item__text">Phasellus venenatis mauris eget isque tincidunt
+                        </div>
+                    </div>
+
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/gears.png" alt="gears">
+                        </div>
+                        <div class="services-item__title item__title">1 Engine Repairs</div>
+                        <div class="services-item__text item__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.</div>
+                    </div>
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/light-bolt.png" alt="">
+                        </div>
+                        <div class="services-item__title item__title">2 Electrical</div>
+                        <div class="services-item__text item__text">Donec malesuada, purus a viverra sodales leo purus
+                            lobortis</div>
+                    </div>
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/pipe.png" alt="">
+                        </div>
+                        <div class="services-item__title item__title">3 Plumbing</div>
+                        <div class="services-item__text item__text">Praesent dignissim mattis mauris. Sed finibus
+                            elementu.</div>
+                    </div>
+                    <div class="services-item item">
+                        <div class="services-item__img item__img">
+                            <img src="/images/wrench.png" alt="">
+                        </div>
+                        <div class="services-item__title item__title">4 Repair House</div>
+                        <div class="services-item__text item__text">Phasellus venenatis mauris eget isque tincidunt
+                        </div>
+                    </div>
+                    
+                   </div>
+                </div>
+            </div>
+            <button class="services__arrow services__next">
+                <img src="./images/right_arrow.png" alt="">
+            </button>
+        </div>
+        <a href="services.html" class="services__btn btn btn_fill">
+            <span>View All Services</span>
+        </a>
+    </div>
+    </section>
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="projects__heading-block heading-block">
+                <h2 class="heading-block__title heading-block__title_center-blue">
+                    Our Projects
+                </h2>
+            </div>
+            <div class="projects__body">
+                <nav class="projects__navigation">
+                    <ul class="projects__nav tabs">
+                        <li data-target="#all" class="tabs__item tabs__item_active">
+                                All
+                        </li>
+                        <li data-target="#engine-repair" class="tabs__item">
+                                Engine Repair
+                        </li>
+                        <li data-target="#electrical" class="tabs__item">
+                                Electrical
+                        </li>
+                        <li data-target="#plumbing" class="tabs__item">
+                                Plumbing
+                        </li>
+                        <li data-target="#repair-house" class="tabs__item">
+                                Repair House
+                        </li>
+                        <li data-target="#wall-paint" class="tabs__item">
+                                Wall Paint
+                        </li>
+                    </ul>
+                </nav>
+                    <ul class="content">
+                        <li id="all" class="content__item content__item_active">
+                            <div class="project__item item"
+                            style="background: url(./images/connector-blue.png) center/cover no-repeat;">
+                            <div class="item__body">
+                                <div class="item__title">
+                                    Pellentesque finibus maximus.</div>
+                                <div class="item__text">Repair House</div>
+                                <div class="search"> <i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+                        <div class="project__item project__item_active item"
+                            style="background: url(./images/bear.png) center/cover no-repeat;">
+                            <div class="item__body">
+                                <div class="item__title">
+                                    Pellentesque finibus maximus.
+                                </div>
+                                <div class="item__text">Repair House</div>
+                                <div class="search"><i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+                        <div class="project__item item"
+                            style="background: url(./images/rabbit_fill.png) center/cover no-repeat;">
+                            <div class="item__body">
+                                <div class="item__title">
+                                    Pellentesque finibus maximus.
+                                </div>
+                                <div class="item__text">Repair House</div>
+                                <div class="search"><i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+                        <div class="project__item item"
+                            style="background: url(./images/rabbit_fill.png) center/cover no-repeat;">
+                            <div class="item__body">
+                                <div class="item__title">
+                                    Pellentesque finibus maximus.
+                                </div>
+                                <div class="item__text">Repair House</div>
+                                <div class="search"><i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+                        <div class="project__item item"
+                            style="background: url(./images/reverse_connector-blue\ копия.png) center/cover no-repeat;">
+                            <div class="item__body">
+                                <div class="item__title">
+                                    Pellentesque finibus maximus.
+                                </div>
+                                <div class="item__text">Repair House</div>
+                                <div class="search"><i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+                        <div class="project__item item" style="background: url(./images/bear.png) center/cover no-repeat;">
+                            <div class="item__body">
+                                <div class="item__title">
+                                    Pellentesque finibus maximus.
+                                </div>
+                                <div class="item__text">Repair House</div>
+                                <div class="search"><i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+                        </li>
+                        <li id="engine-repair" class="content__item">1</li>
+                        <li id="electrical" class="content__item">2</li>
+                        <li id="plumbing" class="content__item">3</li>
+                        <li id="repair-house" class="content__item">4</li>
+                        <li id="wall-paint" class="content__item">5</li>
+                    </ul>                   
+                </div>
+                <a href="projects.html" class="projects__btn btn btn_fill">
+                    <span class="btn__link" >All Projects</span>
+                </a>
+            </div>
+    </section>
+    <!-- PROBLEMS -->
+    <section class="problems" style="background: url(./images/problems_bg.png) center/cover no-repeat;">
+        <div class="container">
+            <div class="problems__body">
+                <h2 class="problems__title">
+                    You have some problems in housing?
+                </h2>
+                <a href="tel:+1235678596" class="problems__btn btn btn_fill">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="btn__link" >+1 23 567 8596</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- INFO -->
+    <div class="info" style="background: url(./images/info_bg.png) center/cover no-repeat;">
+        <div class="container">
+            <div class="info__body">
+                <div class="info__col">
+                    <div class="info__heading-block heading-block">
+                        <div class="heading-block__title heading-block__title_starting-blue">
+                            Our Location
+                        </div>
+                    </div>
+                    <div class="info__content">
+                        <img src="./images/info_map.png" alt="">
+                    </div>
+                </div>
+                <div class="info__col">
+                    <div class="info__heading-block heading-block">
+                        <div class="heading-block__title heading-block__title_starting-blue">
+                            Get A Quote
+                        </div>
+                    </div>
+                    <div class="info__content">
+                        <form class="info__form" name="info__form" method="POST"
+                            data-netlify="true">
+                            <input type="hidden" name="form-name" value="info__form">
+                            <p class="hidden">
+                                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                            </p>
+                            <div class="form__row">
+                                <input type="text" name="name"  data-validate-field="name" placeholder="Your Name" required>
+                                <input type="email" name="email"  data-validate-field="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form__row">
+                                <input type="text" name="subject" placeholder="Your Subjects">
+                                <input type="tel" name="phone" data-validate-field="phone"
+                                    placeholder="Your Phone Number">
+                            </div>
+                            <textarea rows="5" placeholder="Description Services Needed"></textarea>
+                            <div class="info__btn">
+                                <input class="info__btn btn btn_fill" type="submit" value="SUBMIT">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LABELS -->
+    <div class="labels">
+        <div class="container">
+            <div class="labels__body">
+                <a href="#" class="label__item">
+                    <img src="./images/Object1.png" alt="">
+                </a>
+                <a href="#" class="label__item">
+                    <img src="./images/Object2.png" alt="">
+                </a>
+                <a href="#" class="label__item">
+                    <img src="./images/Object3.png" alt="">
+                </a>
+                <a href="#" class="label__item">
+                    <img src="./images/Object4.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__col col">
+                    <div class="footer-accordion accordion">
+                        <div class="col__title accordion__title">Contact Us</div>
+                        <div class="footer__contact contact accordion__content">
+                            <div class="contact-item">
+                                <div class="contact-item__img">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="contact-item__content">
+                                    <a href="tel:+1235678596" class="contact-item__title">+1 23 567 8596</a>
+                                    <div class="contact-item__text">Support 24/7 Weekdays</div>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item__img">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-item__content">
+                                    <div class="contact-item__text">Auhandy Tower, New York, NY 10013, USA</div>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item__img">
+                                    <i class="far fa-envelope"></i>
+                                </div>
+                                <div class="contact-item__content">
+                                    <a href="mailto:info@example.com" class="contact-item__text">info@example.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item__img">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="contact-item__content">
+                                    <div class="contact-item__text">Weekdays: 09:00am - 06:00pm</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col col">
+                    <div class="footer-accordion accordion">
+                        <div class="col__title accordion__title">Our Services</div>
+                        <div class="footer__service accordion__content service">
+                            <div class="service__row">
+                                <div class="service__col">
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Electrical</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Plumbing</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Engine Repair</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Repair House</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Home Maintenance</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Wall Paint</a>
+                                    </div>
+                                </div>
+                                <div class="service__col">
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Installation</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Garden Repairs</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Soil Drilling</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Support 24/7</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Inspection House</a>
+                                    </div>
+                                    <div class="service-item">
+                                        <div class="service-item__img"><i class="fas fa-chevron-right"></i></div>
+                                        <a href="#" class="service-item__text">Remodeling Ceiling</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col col">
+                    <div class="footer__coupon coupon">
+                        <div class="coupon__body">
+                            <div class="coupon__title">Get <span>25%</span>off</div>
+                            <div class="coupon__subtitle">
+                                Electrical Services
+                            </div>
+                            <div class="coupon__text">Redeem Code: <span>HANDYHPY28</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- RIGHTS -->
+    <div class="rights">
+        <div class="container">
+            <div class="autor-rights">
+                Copyright © 2018 <span> Auhandy </span>. Get The Theme
+            </div>
+        </div>
+    </div>
+    <!-- Подключаем JS слайдера -->
+    <script src="js/validate.js"></script>
+    <script src="js/inputMask.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
